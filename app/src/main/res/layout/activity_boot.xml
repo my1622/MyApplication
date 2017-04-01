@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundImage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="bottom|center"
+    tools:context="com.example.myproject.BootActivity" >
+
+    <ImageView
+        android:id="@+id/bootImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/healthgameadvice" />
+
+    <ImageView
+        android:id="@+id/donttouch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/donttouch"
+        android:visibility="invisible" />
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="20dp"/>
+</LinearLayout>
